@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-arduino-leds-control-from-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamalielsaracho/nodejs-arduino-leds-control-from-web.git"
+  },
+  "author": "gamaliel saracho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamalielsaracho/nodejs-arduino-leds-control-from-web/issues"
+  },
+  "homepage": "https://github.com/gamalielsaracho/nodejs-arduino-leds-control-from-web#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "johnny-five": "^0.14.3",
+    "pug": "^2.0.3",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+doctype html
+html(lang="es")
+  head
+    title= 'node + arduino'
+    script(src='/socket.io/socket.io.js').
+    script(src='/js/app.js').
+    style(src='/css/bootstrap.css').
+  body
+    h1 App arduino
+
+    button(onCLick='prenderLedVerde()') Prender led verde
+    
+    button(onCLick='apagarLedVerde()') Apagar led verde
+
+    br
+    br
+
+    button(onCLick='prenderLedAzul()') Prender led azul
+    
+    button(onCLick='apagarLedAzul()') Apagar led azul
+
+    br
+    br
+
+    button(onCLick='prenderLedRojo()') Prender led rojo
+    
+    button(onCLick='apagarLedRojo()') Apagar led rojo
